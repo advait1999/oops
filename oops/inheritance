@@ -1,4 +1,4 @@
-#inheritence
+#inheritance
 Here we inherit the member of paret class to child class with an intension to resuse that.
 
 Note :- Parent class is called as super class/Base class also child class is called as sub class also.
