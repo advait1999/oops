@@ -1,1 +1,23 @@
+#inheritence
+Here we inherit the member of paret class to child class with an intension to resuse that.
 
+Note :- Parent class is called as super class/Base class also child class is called as sub class also.
+example=
+///////////////////////////////////////////////////////////
+package p1;
+
+public class A {
+	int x = 10;
+
+}
+////////////////////////////////////////////////////////////
+
+package p1;
+
+public class B extends A{
+	public static void main(String[] args) {
+		B b1 = new B();
+		System.out.println(b1.x);
+	}
+
+}
